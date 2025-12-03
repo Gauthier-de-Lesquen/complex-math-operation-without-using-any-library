@@ -87,3 +87,27 @@ def gcd(a, b): #PGCD
 
 def lcm(a, b): #PPCM
     return a * b // gcd(a, b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
