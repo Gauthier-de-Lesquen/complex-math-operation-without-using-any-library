@@ -102,13 +102,14 @@ function tan(x) {
     return sin(x) / cos(x);
 }
 
-function gcd(a, b){ //PGCD
+function gcd(a, b){ //Greatest Common Divisor
     while (b !== 0) {
         [a, b] = [b, a % b];
     }
     return a;
 }
 
-function lcm(a, b) { //PPCM
+function lcm(a, b) { //Least Common Multiple
     return Math.floor(a * b / gcd(a, b));
 }
+
