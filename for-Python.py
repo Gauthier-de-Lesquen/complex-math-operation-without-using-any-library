@@ -80,10 +80,11 @@ def cos(x, terms=15):
 def tan(x):
     return sin(x) / cos(x)
 
-def gcd(a, b): #PGCD
+def gcd(a, b): #Greatest Common Divisor
     while b:
         a, b = b, a % b
     return a
 
-def lcm(a, b): #PPCM
+def lcm(a, b): #Least Common Multiple
     return a * b // gcd(a, b)
+
